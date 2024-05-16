@@ -1,0 +1,215 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Button CSS
+2. Input CSS
+3. Textarea CSS
+4. Text CSS
+5. Heading CSS
+6. Container CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Button CSS
+--------------------------------------*/
+.ui.button.circle {
+  border-radius: 50%;
+}
+
+.ui.button.round {
+  border-radius: var(--radius-md);
+}
+
+.ui.button.size-md {
+  height: 48px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 16px;
+}
+
+.ui.button.size-lg {
+  height: 60px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 16px;
+}
+
+.ui.button.size-sm {
+  height: 48px;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+}
+
+.ui.button.size-xs {
+  height: 44px;
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+}
+
+.ui.button.fill.blue_gray_900_01 {
+  background-color: var(--blue_gray_900_01);
+  color: var(--white_A700);
+}
+
+.ui.button.fill.indigo_a400 {
+  background-color: var(--indigo_A400);
+  color: var(--white_A700);
+}
+
+.ui.button.fill.gray_50 {
+  background-color: var(--gray_50);
+}
+
+.ui.button {
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-------------------------------------
+  2. Input CSS
+--------------------------------------*/
+.ui.input.round {
+  border-radius: var(--radius-md);
+}
+
+.ui.input.size-xs {
+  height: 70px;
+  padding-left: var(--space-5xl);
+  padding-right: var(--space-5xl);
+  font-size: 20px;
+}
+
+.ui.input.outline.gray_300 {
+  color: var(--blue_gray_400);
+  border: 1px solid var(--gray_300);
+}
+
+.ui.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: text;
+  color: var(--blue_gray_400);
+  font-size: 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gray_300);
+}
+
+/*-------------------------------------
+  3. Textarea CSS
+--------------------------------------*/
+.ui.textarea.round {
+  border-radius: var(--radius-md);
+}
+
+.ui.textarea.size-xs {
+  height: 222px;
+  font-size: 20px;
+  padding: var(--space-5xl);
+}
+
+.ui.textarea.taroutlinegray300.gray_300 {
+  border: 1px solid var(--gray_300) !important;
+}
+
+/*-------------------------------------
+  4. Text CSS
+--------------------------------------*/
+.ui.text.size-xs {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ui.text.size-s {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ui.text.size-md {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ui.text {
+  color: var(--blue_gray_400);
+  font-family: Inter;
+}
+
+/*-------------------------------------
+  5. Heading CSS
+--------------------------------------*/
+.ui.heading.size-3xl {
+  font-size: 73px;
+  font-weight: 700;
+  @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+  }
+}
+
+.ui.heading.size-2xl {
+  font-size: 60px;
+  font-weight: 700;
+  @media only screen and (max-width: 1050px) {
+    font-size: 52px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 46px;
+  }
+}
+
+.ui.heading.size-xl {
+  font-size: 34px;
+  font-weight: 700;
+  @media only screen and (max-width: 1050px) {
+    font-size: 32px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 30px;
+  }
+}
+
+.ui.heading.size-s {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ui.heading.size-md {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.ui.heading.size-xs {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ui.heading.size-lg {
+  font-size: 30px;
+  font-weight: 700;
+  @media only screen and (max-width: 1050px) {
+    font-size: 28px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 26px;
+  }
+}
+
+.ui.heading {
+  color: var(--blue_gray_900_01);
+  font-family: Raleway;
+}
+
+/*-------------------------------------
+  6. Container CSS
+--------------------------------------*/
+.container-xs {
+  max-width: 1216px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

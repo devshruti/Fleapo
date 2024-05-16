@@ -1,0 +1,50 @@
+
+:root {
+  /*------Color variables------*/
+  --gray_50: #f5f8ff;
+  --gray_300: #d6ddec;
+  --gray_900_01: #2a2a2a;
+  --blue_gray_400: #8987a1;
+  --blue_gray_900: #242431;
+  --blue_gray_900_01: #252432;
+  --blue_gray_400_cc: #8987a1cc;
+  --white_A700: #ffffff;
+  --white_A700_99: #ffffff99;
+  --indigo_50: #e3e9f7;
+  --indigo_A400: #4d47ff;
+  --indigo_A200: #5b54ff;
+  --yellow_700: #f6c23d;
+
+  /*------Border radius variables------*/
+  --radius-xs: 5px;
+  --radius-sm: 9px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  --radius-xl: 22px;
+  --radius-2xl: 24px;
+  --radius-3xl: 39px;
+  --radius-4xl: 40px;
+
+  /*------Spacing variables------*/
+  --space-xs: 9px;
+  --space-sm: 10px;
+  --space-md: 12px;
+  --space-lg: 13px;
+  --space-xl: 18px;
+  --space-2xl: 19px;
+  --space-3xl: 27px;
+  --space-4xl: 32px;
+  --space-5xl: 33px;
+  --space-6xl: 34px;
+  --space-7xl: 119px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-col-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
